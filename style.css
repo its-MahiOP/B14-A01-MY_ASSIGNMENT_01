@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: "inter", sans-serif;
+    max-width: 1551px;
 }
 
 section {
-    padding: 80px 115px;
+    padding: 100px 115px;
 }
 
 nav {
@@ -114,6 +115,155 @@ main section h2{
 
 .intro-container {
     border: 1px solid #E5E7EB;
-    border-radius: 2%;
+    border-radius: 12px;
 }
 
+.intro-container img {
+    border-radius: 12px 12px 0 0;
+}
+
+.pricing {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing h2 {
+    color: #0D1B2A;
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+#pricing-subtitle {
+    text-align: center;
+    color: #575757;
+}
+
+.pricing-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 80px;
+}
+
+.price-cards {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    width: 320px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+.plan-info{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.common-card h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 6px;
+}
+
+.pro-card {
+    background-color: #0D1B2A;
+    border-color: #0D1B2A;
+}
+
+.plan-name-pro {
+    font-size: 14px;
+    font-weight: 600;
+    color: #93C5FD;
+    margin-bottom: 8px;
+}
+
+.plan-info-pro {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+    opacity: 50%;
+}
+
+.pro-card h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 6px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+
+.price-cards ul {
+    padding: 0 16px;
+}
+
+.price-cards ul li {
+    padding: 8px 0;
+}
+
+.common-card ul li {
+    color: #333333;
+}
+
+.pro-card ul li {
+    color: white;
+    opacity: 80%;
+}
+
+/* I found the li::marker tag from AI */
+.common-card li::marker {
+    color: #2563EB;
+}
+
+.pro-card li::marker {
+    color: #60A5FA;
+}
+
+.common-button {
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px; 
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.standard {
+    background-color: white;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+}
+
+.pro {
+    background-color: #2563EB;
+    color: white;
+    border: 2px solid #2563EB;
+    box-shadow: 0 0 50px black;
+}
+
+.team {
+    background-color: #F8F9FB;
+    color: black;
+    border: 2px solid black;
+}
