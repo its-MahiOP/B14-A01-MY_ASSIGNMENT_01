@@ -4,6 +4,10 @@
     font-family: "inter", sans-serif;
 }
 
+section {
+    padding: 80px 115px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -55,7 +59,7 @@ header {
 
 .hero-text p {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 16px;
 }
 
@@ -70,3 +74,46 @@ header {
     cursor: pointer;
     margin-top: 280px;
 }
+
+main section h2{
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.speaker-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+}
+
+.speciality {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.name {
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.designation{
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.intro-container {
+    border: 1px solid #E5E7EB;
+    border-radius: 2%;
+}
+
