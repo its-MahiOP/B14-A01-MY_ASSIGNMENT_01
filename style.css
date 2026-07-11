@@ -300,7 +300,7 @@ hr {
     padding: 48px 20px;
 }
 
-.icon {
+.sponsor-icon {
     width: 120px;
     height: 70px;
     color: #E5E7EB;
@@ -312,4 +312,55 @@ hr {
     color: #ffffff;
     font-size: 1.3rem;
     margin-bottom: 0;
+}
+
+footer {
+    background-color: #0D1B2A;
+    padding: 26.5px 115.5px;
+}
+
+.footer-items ul p {
+    color:#FFFFFF;
+    opacity: 70%;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.footer-items ul li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+footer a {
+    color: #FFFFFF;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+.footer-follow-us p {
+    color:#FFFFFF;
+    opacity: 70%;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer-icons {
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.copyright {
+    color:#FFFFFF;
+    opacity: 70%;
+    font-size: 0.85rem;
+    margin-top: 24px;
+    text-align: center;
 }
