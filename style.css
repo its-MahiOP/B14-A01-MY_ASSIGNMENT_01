@@ -124,6 +124,7 @@ main section h2{
 
 .pricing {
     padding-top: 0;
+    padding-bottom: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,6 +139,7 @@ main section h2{
 #pricing-subtitle {
     text-align: center;
     color: #575757;
+    font-size: 1.1rem;
 }
 
 .pricing-card-container {
@@ -266,4 +268,48 @@ hr {
     background-color: #F8F9FB;
     color: black;
     border: 2px solid black;
+}
+
+.sponsors {
+    padding-top: 0;
+    text-align: center;
+}
+
+.sponsors h2 {
+    font-size: 3rem;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.sponsors-subtitle {
+    font-size: 1.1rem;
+    color: #575757;
+    margin-bottom: 48px;
+}
+
+.sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.sponsor-card {
+    background-color: #0D1B2A;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 48px 20px;
+}
+
+.icon {
+    width: 120px;
+    height: 70px;
+    color: #E5E7EB;
+    font-size: 64px;
+    margin-bottom: 6px;
+}
+
+.sponsor-card h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 0;
 }
