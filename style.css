@@ -2,7 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: "inter", sans-serif;
+}
+
+body {
     max-width: 1551px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 section {
@@ -16,7 +25,7 @@ nav {
     align-items: center;
 }
 
-nav div ul{
+nav div ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -29,8 +38,8 @@ nav div ul li a {
 }
 
 nav div button {
-    background-color: #1D4ED8;
-    color: #FFFFFF;
+    background-color: #1d4ed8;
+    color: #ffffff;
     padding: 12px 41.5px;
     border: none;
     border-radius: 12px;
@@ -38,10 +47,12 @@ nav div button {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/banner.jpg");
     height: 110vh;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
     background-repeat: no-repeat;
 
     display: grid;
@@ -49,7 +60,7 @@ header {
 }
 
 .hero-text {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -65,8 +76,8 @@ header {
 }
 
 .hero-text button {
-    background-color: #1D4ED8;
-    color: #FFFFFF;
+    background-color: #1d4ed8;
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 25px 62.5px;
@@ -76,7 +87,7 @@ header {
     margin-top: 280px;
 }
 
-main section h2{
+main section h2 {
     font-size: 56px;
     text-align: center;
     margin-bottom: 56px;
@@ -96,25 +107,25 @@ main section h2{
 }
 
 .speciality {
-    color: #2563EB;
+    color: #2563eb;
     font-size: 12px;
     font-weight: 600;
 }
 
 .name {
-    color: #0D1B2A;
+    color: #0d1b2a;
     font-size: 20px;
     font-weight: bold;
 }
 
-.designation{
+.designation {
     color: #575757;
     font-size: 14px;
     font-weight: 400;
 }
 
 .intro-container {
-    border: 1px solid #E5E7EB;
+    border: 1px solid #e5e7eb;
     border-radius: 12px;
 }
 
@@ -131,7 +142,7 @@ main section h2{
 }
 
 .pricing h2 {
-    color: #0D1B2A;
+    color: #0d1b2a;
     font-size: 3rem;
     margin-bottom: 12px;
 }
@@ -150,9 +161,9 @@ main section h2{
 }
 
 .price-cards {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 32px;
-    border: 1px solid #E5E7EB;
+    border: 1px solid #e5e7eb;
     border-radius: 16px;
     width: 320px;
     height: 430px;
@@ -160,14 +171,14 @@ main section h2{
     flex-direction: column;
 }
 
-.plan-name{
+.plan-name {
     font-size: 14px;
     font-weight: 600;
     color: #888888;
     margin-bottom: 8px;
 }
 
-.plan-info{
+.plan-info {
     font-size: 13px;
     font-weight: 400;
     color: #888888;
@@ -177,19 +188,19 @@ main section h2{
 .common-card h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #0D1B2A;
+    color: #0d1b2a;
     margin-bottom: 6px;
 }
 
 .pro-card {
-    background-color: #0D1B2A;
-    border-color: #0D1B2A;
+    background-color: #0d1b2a;
+    border-color: #0d1b2a;
 }
 
 .plan-name-pro {
     font-size: 14px;
     font-weight: 600;
-    color: #93C5FD;
+    color: #93c5fd;
     margin-bottom: 8px;
 }
 
@@ -211,7 +222,7 @@ main section h2{
 hr {
     border: none;
     height: 1px;
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     margin-bottom: 20px;
     opacity: 70%;
 }
@@ -235,17 +246,17 @@ hr {
 
 /* I found the li::marker tag from AI */
 .common-card li::marker {
-    color: #2563EB;
+    color: #2563eb;
 }
 
 .pro-card li::marker {
-    color: #60A5FA;
+    color: #60a5fa;
 }
 
 .common-button {
     font-size: 14px;
     font-weight: 600;
-    height: 45px; 
+    height: 45px;
     border-radius: 12px;
     cursor: pointer;
     margin-top: auto;
@@ -253,19 +264,19 @@ hr {
 
 .standard {
     background-color: white;
-    color: #2563EB;
-    border: 2px solid #2563EB;
+    color: #2563eb;
+    border: 2px solid #2563eb;
 }
 
 .pro {
-    background-color: #2563EB;
+    background-color: #2563eb;
     color: white;
-    border: 2px solid #2563EB;
+    border: 2px solid #2563eb;
     box-shadow: 0 0 50px black;
 }
 
 .team {
-    background-color: #F8F9FB;
+    background-color: #f8f9fb;
     color: black;
     border: 2px solid black;
 }
@@ -277,7 +288,7 @@ hr {
 
 .sponsors h2 {
     font-size: 3rem;
-    color: #0D1B2A;
+    color: #0d1b2a;
     margin-bottom: 12px;
 }
 
@@ -294,7 +305,7 @@ hr {
 }
 
 .sponsor-card {
-    background-color: #0D1B2A;
+    background-color: #0d1b2a;
     border: 1px solid #e8e8e8;
     border-radius: 16px;
     padding: 48px 20px;
@@ -303,7 +314,7 @@ hr {
 .sponsor-icon {
     width: 120px;
     height: 70px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 64px;
     margin-bottom: 6px;
 }
@@ -315,12 +326,12 @@ hr {
 }
 
 footer {
-    background-color: #0D1B2A;
+    background-color: #0d1b2a;
     padding: 26.5px 115.5px;
 }
 
 .footer-items ul p {
-    color:#FFFFFF;
+    color: #ffffff;
     opacity: 70%;
     font-weight: 700;
     margin-bottom: 8px;
@@ -338,13 +349,13 @@ footer {
 }
 
 footer a {
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 70%;
     text-decoration: none;
 }
 
 .footer-follow-us p {
-    color:#FFFFFF;
+    color: #ffffff;
     opacity: 70%;
     font-weight: 700;
     margin-bottom: 8px;
@@ -352,13 +363,12 @@ footer a {
 
 .footer-icons {
     font-size: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 70%;
-    cursor: pointer;
 }
 
 .copyright {
-    color:#FFFFFF;
+    color: #ffffff;
     opacity: 70%;
     font-size: 0.85rem;
     margin-top: 24px;
