@@ -6,3 +6,4 @@ I am developing a website for the Premier Developer Conference 2026 using HTML a
 
 ## Prompt 2:
 I like the "Our Sponsors" section. Provide me the code for that section in HTML and CSS (external CSS). The sponsors are Google, Microsoft, Apple, and Amazon. The theme should be white, because my website theme is also white.
+
